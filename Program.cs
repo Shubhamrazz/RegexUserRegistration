@@ -7,7 +7,8 @@ namespace RegexUserRegistrationProgram
         static void Main(string[] args)
         {
             Console.WriteLine("----Welcome To User Registration Program----");
-            UserRegistration.ValidateFirstName();
+            //UserRegistration.ValidateFirstName();
+            UserRegistration.ValidateLastName();
             Console.ReadLine();
         }
     }
