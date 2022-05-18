@@ -8,7 +8,8 @@ namespace RegexUserRegistrationProgram
         {
             Console.WriteLine("----Welcome To User Registration Program----");
             //UserRegistration.ValidateFirstName();
-            UserRegistration.ValidateLastName();
+            //UserRegistration.ValidateLastName();
+            UserRegistration.ValidateEmailId();
             Console.ReadLine();
         }
     }
