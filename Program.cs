@@ -9,7 +9,8 @@ namespace RegexUserRegistrationProgram
             Console.WriteLine("----Welcome To User Registration Program----");
             //UserRegistration.ValidateFirstName();
             //UserRegistration.ValidateLastName();
-            UserRegistration.ValidateEmailId();
+            //UserRegistration.ValidateEmailId();
+            UserRegistration.ValidateMobileNumber();
             Console.ReadLine();
         }
     }

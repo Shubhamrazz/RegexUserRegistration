@@ -55,5 +55,20 @@ namespace RegexUserRegistrationProgram
                     Console.WriteLine("{0} is invalid", input);
             }
         }
+        public static void ValidateMobileNumber()
+        {
+            string Pattern = "^[6-9][0-9]{9}$";
+            string[] inputs = { "7865328943", "6789431234", "7435238978", "9897674532", "89324156890", "5643784532", "7783245690", "77908578435", "6743245897" };
+            foreach (string input in inputs)
+            {
+                bool Result = Regex.IsMatch(input, Pattern);
+                if (Result)
+                {
+                    Console.WriteLine("{0} is valid", input);
+                }
+                else
+                    Console.WriteLine("{0} is invalid", input);
+            }
+        }
     }
 }
