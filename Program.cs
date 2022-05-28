@@ -10,7 +10,8 @@ namespace RegexUserRegistrationProgram
             //UserRegistration.ValidateFirstName();
             //UserRegistration.ValidateLastName();
             //UserRegistration.ValidateEmailId();
-            UserRegistration.ValidateMobileNumber();
+            //UserRegistration.ValidateMobileNumber();
+            UserRegistration.ValidateSpecialCharPassword();
             Console.ReadLine();
         }
     }
